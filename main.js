@@ -71,9 +71,7 @@ function checkWin() {
   } else if (!options.includes('')) {
     msg.textContent = `It's a Draw, Try Again!`;
     running = false;
-  }
-
-  else {
+  } else {
     changePlayer();
   }
 }
